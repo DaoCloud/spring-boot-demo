@@ -68,16 +68,16 @@
 
     <repositories>
         <repository>
-            <id>nexus-daocloud</id>
-            <name>Nexus daocloud</name>
-            <url>http://nexus.daocloud.io/repository/maven-public/</url>
+            <id>nexus-local</id>
+            <name>Nexus local</name>
+            <url>http://localhost:9081/repository/maven-public/</url>
         </repository>
 
-        <repository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
+        <!--<repository>-->
+            <!--<id>nexus-aliyun</id>-->
+            <!--<name>Nexus aliyun</name>-->
+            <!--<url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+        <!--</repository>-->
 
     </repositories>
 
@@ -122,15 +122,15 @@
     <pluginRepositories>
 
         <pluginRepository>
-            <id>nexus-daocloud</id>
-            <name>Nexus daocloud</name>
-            <url>http://nexus.daocloud.io/repository/maven-public/</url>
+                <id>nexus-local</id>
+                <name>Nexus local</name>
+                <url>http://localhost:9081/repository/maven-public/</url>
         </pluginRepository>
 
-        <pluginRepository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </pluginRepository>
+        <!--<pluginRepository>-->
+            <!--<id>nexus-aliyun</id>-->
+            <!--<name>Nexus aliyun</name>-->
+            <!--<url>http://maven.aliyun.com/nexus/content/groups/public</url>-->
+        <!--</pluginRepository>-->
     </pluginRepositories>
 </project>
